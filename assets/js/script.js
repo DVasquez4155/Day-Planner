@@ -19,7 +19,7 @@
             .html(currentHour.format('ha'));
             row.append(timeContainer);
             var inputContainer = document.createElement('input');
-            var currentTime = moment().add('hour',13);
+            var currentTime = moment();
             var type = 'bg-secondary'
             if (currentTime.hour() < currentHour.hour()) {
                 type = 'bg-success'
